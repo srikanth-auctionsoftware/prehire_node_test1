@@ -1,5 +1,5 @@
 const expressLoader = require('./express')
-const mysqlLoader = require('./mysql')
+// const mysqlLoader = require('./mysql')
 const routesLoader = require('./routes')
 const connectionLoader = require('./connection')
 
