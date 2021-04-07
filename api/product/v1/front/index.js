@@ -25,13 +25,6 @@ const { jsonResponse } = require('./controllers/logger')
 // const checkip = new checkIPValidation();
 const app = express.Router()
 
-const logDirect = path.join(__dirname, '../../../../public/logs/api/error')
-
-if (!fs.existsSync(logDirect)) {
-    fs.mkdirSync(logDirect)
-}
-
-
 
 const NotAuthenticated = async (req, res, next) => {
     const bearerHeader = req.headers.authorization
