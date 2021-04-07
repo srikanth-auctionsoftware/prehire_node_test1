@@ -7,9 +7,9 @@
             "database": "dpworld_test"
         },
         "title": "Nellis.com",
-        "url": "http://localhost",
-        "images_url": "http://localhost:7777",
-        "port": "7777",
+        "url": "https://vp336.sse.codesandbox.io",
+        "images_url": "https://vp336.sse.codesandbox.io",
+        "port": "8080",
         "path": "C:\\Users\\User\\Documents\\Deva\\dpworld",
         "websitename": "GMF DealerSource",
         "cron_ref_url": "http://192.168.20.101",
