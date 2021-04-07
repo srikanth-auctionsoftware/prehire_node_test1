@@ -1,0 +1,41 @@
+{
+    "Common": {
+        "dbConfig": {
+            "user": "root",
+            "host": "localhost",
+            "password": "root",
+            "database": "dpworld_test"
+        },
+        "title": "Nellis.com",
+        "url": "http://localhost",
+        "images_url": "http://localhost:7777",
+        "port": "7777",
+        "path": "C:\\Users\\User\\Documents\\Deva\\dpworld",
+        "websitename": "GMF DealerSource",
+        "cron_ref_url": "http://192.168.20.101",
+        "fileversion": "0.0.1",
+        "settingscdn": {
+            "s3_enable": 0
+        },
+        "general": {
+            "adminemail": "srikanth@auctionsoftware.com",
+            "contactus": "srikanth@auctionsoftware.com",
+            "suspendemail": "srikanth@auctionsoftware.com",
+            "proxy_bidding": 1
+        },
+        "mode": {
+            "Maintenance_mode": "no",
+            "Exclude_IP": "111.111.111.111,222.222.222.*",
+            "message": "Marketplace Currently In Maintenance Mode\r\n"
+        },
+        "email": {
+            "status": "yes"
+        },
+        "sms": {
+            "status": "yes"
+        }
+    },
+    "JwtToken": {
+        "secret": "TESTOKEN"
+    }
+}

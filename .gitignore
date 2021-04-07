@@ -4,4 +4,3 @@ public/uploads
 .vscode/launch.json
 yarn-error.log
 package-lock.json
-config/development.json
